@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/* 文字エンコードの設定（削除不可） */
+/* ********************************************** */
+
+@media screen {
+	/* トップ ----------------------*/
+	div#HEADER {
+		padding-left: 20px;
+		padding-bottom: 10px;
+		border: 1px solid #ddd;
+	}
+	div#version {
+		text-align: right;
+		padding-right: 20px;
+	}
+	
+	/*------------------------------------*/
+	/* 全称 */
+	* {
+		font-size: 100%;
+		font-style: normal;
+	}
+	body {
+		font: small/1.6 Verdana, Meiryo, メイリオ, Osaka, 'MS P Gothic', Sans-serif;
+		font-size: 0.84rem;
+	}
+	
+	/* 見出し */
+	h1, h2, h3, h4, h5, h6 {
+		margin: 1.5em 0 1em;
+		letter-spacing: 2px;
+	}
+	h1 {
+		margin: 10px 0 0;
+		padding: 0;
+		font-weight: bold;
+		font-size: 150%
+	}
+	h2 {
+		margin: 5px 0;
+		padding: 3px 10px;
+		background-image: url(use/h.png);
+		text-align: center;
+		border: 1px #ddd solid;
+		font-size: 120%;
+	}
+	h3 {
+		border-bottom: 1px solid #ddd;
+		font-weight: normal;
+		font-size: 120%;
+		padding-left: 10px;
+	}
+	h4 {
+		border-left: 5px solid #ddd;
+		padding-left: 10px;
+	}
+	h5 {
+		border-left: 1px solid #ddd;
+		padding-left: 10px;
+	}
+	h6 {}
+	
+	/* 段落 */
+	p {
+		margin: 0.7em 10px;
+	}
+	
+	/* 罫線 */
+	hr {
+		display: none;
+	}
+	
+	/* 強制改行 */
+	br {}
+	
+	/* アンカー */
+	a {} a:link {
+		color: #7b6613;
+	}
+	a:visited {
+		color: #924d90;
+	}
+	a:hover {
+		color: #cfbf7d;
+		text-decoration: none;
+	}
+	a:active {} 
+	a:focus {}
+	
+	/* 強調・追加・削除 */
+	em {
+		color: red;
+	}
+	strong {
+		color: red;
+	}
+	ins {} 
+	del {}
+	
+	/* フォーム */
+	form {} 
+	fieldset {
+		border: 1px dashed #ddd;
+	}
+	legend {} 
+	label {} 
+	input {
+		border: 1px solid #000;
+	}
+	input[type="text"] {} 
+	input[type="checkbox"] {} 
+	input[type="radio"] {} 
+	input[type="button"], nput[type="submit"], input[type="reset"] {
+		background: #000;
+		color: #fff;
+		cursor: pointer;
+	}
+	input[type="image"] {
+		cursor: pointer;
+	}
+	textarea {
+		border: 1px solid #000;
+	}
+	select {} 
+	option {} 
+	optgroup {}
+	
+	/* ボタン */
+	button {
+		cursor: pointer;
+	}
+	button[type="button"] {} 
+	button[type="submit"] {} 
+	button[type="reset"] {}
+	
+	/* リスト */
+	ol, ul {
+		margin: 5px 0;
+		padding-left: 2em;
+	}
+	ol li {} 
+	ul li {} 
+	dl {
+		margin: 5px;
+		border-left: 1px #ddd solid;
+		padding-left: 10px;
+	}
+	dt {} dd {
+		margin: 0 0 0 7px;
+		padding: 5px 10px;
+		border-left: 1px dotted #ddd;
+	}
+	
+	/* アドレス */
+	address {}
+	
+	/* テーブル */
+	table {} 
+	caption {} 
+	thead {} 
+	tbody {} 
+	tfoot {} 
+	tr {} 
+	thead tr {} 
+	tbody tr {} 
+	tfoot tr {} 
+	th {
+		background-color: #eee;
+		padding: 2px 5px;
+	}
+	thead th {} 
+	tbody th {} 
+	tfoot th {} 
+	td {
+		padding: 2px 5px;
+	}
+	thead td {} 
+	tbody td {} 
+	tfoot td {}
+	
+	/* 画像 */	
+	img {} 
+	a img {
+		border: none;
+	}
+	
+	/* 引用 */
+	blockquote {
+		border: 1px dotted #555;
+		padding: 5px 15px;
+	}
+	q {
+		border: 1px dotted #555;
+	}
+	
+	/* 参照元 */
+	cite {}
+	
+	/* 整形済みテキスト */
+	pre {
+		white-space: -moz-pre-wrap;
+		/* Mozilla */
+		white-space: -pre-wrap;
+		/* Opera 4-6 */
+		white-space: -o-pre-wrap;
+		/* Opera 7 */
+		white-space: pre-wrap;
+		/* CSS3 */
+		word-wrap: break-word;
+		/* IE 5.5+ */
+		margin: 10px auto;
+		width: 95%;
+		overflow: auto;
+	}
+	
+	/* コード・出力サンプル */
+	code {} samp {}
+	
+	/* キーボード */
+	kbd {
+		color: #ea830a;
+	}
+	
+	/* 変数・置き換え可能語 */
+	var {}
+	
+	/* 定義語 */
+	dfn {}
+	
+	/* 省略語 */
+	abbr, acronym {}
+	
+	/* 書字方向指定 */
+	bdo {}
+	
+	/* インラインフレーム */
+	iframe {}
+	
+	/* オブジェクト */
+	object {}
+	
+	/* ノースクリプト */
+	body noscript {}
+	
+	/* ノーフレーム */
+	body noframes {}
+	
+	/* 上付き文字・下付き文字 */
+	sup {} sub {}
+	
+	/* その他物理要素 */
+	b {
+		font-weight: bold;
+	}
+	i {
+		font-style: italic;
+	}
+	big {
+		font-size: larger;
+	}
+	small {
+		font-size: smaller;
+	}
+	tt {}
+	
+	/* 各#ID＆.class */
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+	ul.modori {
+		list-style: none;
+		text-align: right;
+	}
+	li form {
+		display: inline;
+	}
+	body {
+		/* ページ全体の背景色 */
+		background-color: #eee;
+		background-image: url(use/n.png);
+		/* ページ全体の文字色 */
+		color: #000;
+	}
+	#PAGETOP {
+		/* 内容全体の外側の余白（寄せ位置） */
+		margin-right: auto;
+		margin-left: auto;
+		/* 内容全体の幅 */
+		width: 650px;
+		padding: 15px 20px;
+		background-color: #fff;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+	}
+	@media screen and (max-width: 650px) {
+		#PAGETOP {
+			width: 96%;
+			padding: 2% 2%;
+			border-left: 0px;
+			border-right: 0px;
+		}
+	}
+
+	#MENU {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 1px 5px;
+		background-image: url(use/h.png);
+		border: 1px #ddd solid;
+	}
+	#KIZI {
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+	ul#PAN {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	ul#PAN li {
+		margin: 0;
+		display: inline;
+	}
+	ul#PAN li+li:before {
+		content: "→";
+		font-family: 'MS P Gothic';
+		font-size: 90%;
+		padding-right: 5px;
+	}
+	div#MENU h2 {
+		display: none;
+	}
+	div#MENU ul {
+		text-align: center;
+		marign: 0;
+		padding: 0;
+	}
+	div#MENU li {
+		list-style: none;
+		margin: 0;
+		padding: 2px;
+		padding-left: 8px;
+		display: inline;
+		border-left: 1px solid #333;
+	}
+	div#MENU li a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #000
+	}
+	div#MENU li a:hover {
+		text-decoration: underline;
+	}
+	div#MENU li#MENU01 {
+		border: none;
+	}
+	div#MENU li#MENU02 {} div#MENU li#MENU03 {} div#MENU li#MENU04 {} div#MENU li.menu-on {} div.text {
+		padding: 5px 10px;
+		border-bottom: 1px dotted #ddd;
+	}
+	ul.modori {} ul.modori li {} ul.modori a {
+		text-decoration: none;
+		color: #999;
+	}
+	ul.modori a:hover {
+		color: #666;
+	}
+	div#FOOTER h2 {
+		display: none;
+	}
+	div#FOOTER ul {
+		text-align: center;
+	}
+	div#FOOTER li {
+		display: inline;
+		margin: 0 5px;
+	}
+	div#FOOTER li address {
+		display: inline;
+	}
+	li#FOOTER01 {} li#FOOTER02 {} li#FOOTER03 {}
+	
+	/* bxsliderスライダー */
+	ul.bxslider li {
+		width: 600px;
+		height: 600px;
+
+		position: relative;
+	}
+	@media screen and (max-width: 650px) {
+		ul.bxslider li {
+			height: 420px;
+		}
+	}
+	ul.bxslider li img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		max-width: 100%;
+		max-height: 100%;
+		margin: auto;
+	}
+
+	/* ボイステーブル */
+	.voiceview table {
+		width: 100%;
+		border-spacing: 0px;
+	}
+	.voiceview tr:nth-child(even) {
+		background-color: whitesmoke;
+	}
+	.voiceview tr:nth-child(odd) {
+		background-color: white;
+	}
+	.voiceview td:nth-child(1) {
+		width: 13%;
+		text-align: center;
+	}
+	.voiceview td:nth-child(2) {}
+
+	/* 広告表示 */
+	.adview {
+		float: left;
+		margin: 10px;
+	}
+	.adexit {
+		clear: both;
+	}
+}
