@@ -28,15 +28,17 @@ Richelieu,甲Ｓ E-4-X（ボス）,1.24
 Richelieu,甲Ａ E-4-X（ボス）,0.88
 Richelieu,丙Ｓ E-4-X（ボス）,1.76
 Richelieu,丙Ａ E-4-X（ボス）,1.03
-Richelieu,丁Ｓ E-7-X（ボス）,0.87
-Richelieu,丁Ａ E-7-X（ボス）,0.69
+Richelieu,丁Ｓ E-7-V（戦力１）,0.46
+Richelieu,丁Ｓ E-7-X（戦力２）,0.87
+Richelieu,丁Ａ E-7-X（戦力２）,0.69
 
 Ark,甲Ｓ E-4-X（ボス）,1.84
 Ark,甲Ａ E-4-X（ボス）,1.03
 Ark,丙Ｓ E-4-X（ボス）,2.01
 Ark,丙Ａ E-4-X（ボス）,1.44
-Ark,丁Ｓ E-7-X（ボス）,0.83
-Ark,丁Ａ E-7-X（ボス）,0.82
+Ark,丁Ｓ E-7-V（戦力１）,0.38
+Ark,丁Ｓ E-7-X（戦力２）,0.83
+Ark,丁Ａ E-7-X（戦力２）,0.82
 
 Warspite,甲Ｓ E-4-X（ボス）,2.18
 Warspite,甲Ａ E-4-X（ボス）,0.91
@@ -60,14 +62,14 @@ Luigi,丙Ｓ E-3-U（ボス）,1.70
 春日丸,甲Ａ E-3-U（ボス）,1.05
 春日丸,丙Ｓ E-3-U（ボス）,2.87
 
-Iowa,丁Ｓ E-7-X（ボス）,1.32
-Iowa,丁Ａ E-7-X（ボス）,1.47
+Iowa,丁Ｓ E-7-X（戦力２）,1.32
+Iowa,丁Ａ E-7-X（戦力２）,1.47
 
-Saratoga,丁Ｓ E-7-X（ボス）,1.00
-Saratoga,丁Ａ E-7-X（ボス）,0.96
+Saratoga,丁Ｓ E-7-X（戦力２）,1.00
+Saratoga,丁Ａ E-7-X（戦力２）,0.96
 
-Graf,丁Ｓ E-7-X（ボス）,1.16
-Graf,丁Ａ E-7-X（ボス）,0.99
+Graf,丁Ｓ E-7-X（戦力２）,1.16
+Graf,丁Ａ E-7-X（戦力２）,0.99
 
-Bismarck,丁Ｓ E-7-X（ボス）,0.77
-Bismarck,丁Ａ E-7-X（ボス）,0.78
+Bismarck,丁Ｓ E-7-X（戦力２）,0.77
+Bismarck,丁Ａ E-7-X（戦力２）,0.78
